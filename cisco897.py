@@ -11,4 +11,4 @@ cisco897 = {
 
 conn1 = ConnectHandler(**cisco897)
 outp = conn1.send_command("show run")
-print (outp)
+print(outp)
