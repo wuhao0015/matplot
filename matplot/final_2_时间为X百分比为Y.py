@@ -11,6 +11,7 @@ import matplotlib.dates as mdate
 ax.xaxis.set_major_formatter(mdate.DateFormatter('%Y-%m-%d %H:%M:%S'))
 #ax.xaxis.set_major_formatter(mdate.DateFormatter('%H:%M'))
 
+
 import matplotlib.ticker as mtick
 ax.yaxis.set_major_formatter(mtick.FormatStrFormatter('%.2f%%'))
 #ax.yaxis.set_major_formatter(mtick.FormatStrFormatter('%d%%')) #最前和最后的%为固定格式
