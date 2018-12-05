@@ -23,5 +23,5 @@ for (time, cpu) in final_0_data.R1_CPU_TIME:
     Y.append(cpu)
 
 fig.autofmt_xdate() #自动调整X轴格式
-plt.plot(X, Y)
-plt.show()
+plt.plot(X, Y) #制图
+plt.show() #显示图
